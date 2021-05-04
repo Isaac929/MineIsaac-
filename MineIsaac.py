@@ -4,7 +4,7 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 application.development_mode = False
 
 window.borderless = False
-
+window.set_title("MineIsaac")
 app = Ursina()
 grass_texture = load_texture('assets/grass_block.png')
 stone_texture = load_texture('assets/stone_block.png')
@@ -104,6 +104,7 @@ for z in range(20):
 		voxel = Voxel(position = (x,0,z))
 
 player = FirstPersonController()
+player.mouse_sensitivity = 4
 sky = Sky()
 hand = Hand()
 
