@@ -105,7 +105,7 @@ for z in range(20):
 		voxel = Voxel(position = (x,0,z))
 
 player = FirstPersonController()
-player.mouse_sensitivity = (4.0, 4.0)
+player.mouse_sensitivity = (80.0, 80.0)
 sky = Sky()
 hand = Hand()
 
