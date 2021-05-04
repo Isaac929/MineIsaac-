@@ -18,6 +18,7 @@ sand_texture = load_texture ('assets/sand_block.png')
 cobble_texture = load_texture ('assets/cobble_block.png')
 sky_texture   = load_texture('assets/skybox.png')
 arm_texture   = load_texture('assets/arm_texture.png')
+Inventory_texture   = load_texture('assets/Inventory_texture.png')
 punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
 block_pick = 1
 
